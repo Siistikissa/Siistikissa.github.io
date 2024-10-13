@@ -1,6 +1,6 @@
 # Genghis Khan appreciation site
-[!WARNING]
-This site may contain information about Genhis Khan!
+> [!WARNING]
+> This site may contain information about Genhis Khan!
 **Observe the _GOAT_ below**\
 ![Picture of goat](https://github.com/Siistikissa/Siistikissa.github.io/blob/main/Genghis_khan.jpg) 
 
