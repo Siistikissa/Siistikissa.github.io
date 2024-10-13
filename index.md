@@ -1,5 +1,4 @@
 # A first-level heading
 
-__________ <sub>funny text</sub> __________\
---------\
-Doubletext <sup>funny text</sup> Doubletext
+**Observe the _GOAT_ below**
+!(/Genhis_khan.jpg) 
