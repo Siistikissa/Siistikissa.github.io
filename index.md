@@ -3,7 +3,7 @@
 > This site may contain information about Genhis Khan!
 
 **Observe the _GOAT_ below**\
-![Picture of goat](https://github.com/Siistikissa/Siistikissa.github.io/blob/main/Genghis_khan.jpg) 
+![Picture of goat](/Genghis_khan.jpg) 
 
 ## Why was he so epic[^1]
 * Founder of Mongol Empire
