@@ -1,0 +1,43 @@
+body{
+    background-color: #000000;
+}
+.center{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #f50538;
+}
+.supercooltext:hover{
+    animation: color-change 1s infinite;
+}
+@keyframes color-change{
+    0% {color: rgb(255,0,0)}
+    16% {color: rgb(255,127,0)}
+    33% {color: rgb(255,255,0)}
+    49% {color: rgb(0,255,0)}
+    65% {color: rgb(0,0,255)}
+    82% {color: rgb(75,0,255)}
+    100% {color: rgb(143,0,255)}
+}
+a:link{
+    color: #b6042a;
+}
+a:visited{
+    color: #79021c;
+}
+a:active{
+    color: #79021c;
+}
+a:hover{
+    color: #79021c;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-self: center;
+    background-color: white;
+}
+.grid-item{
+    background-color: aqua;
+    text-align: center;
+}
