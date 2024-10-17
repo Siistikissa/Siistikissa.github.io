@@ -1,9 +1,30 @@
 <!DOCTYPE html>
 <html>
     <head>
-
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        
+        <header>
+            <header class="center">
+                <a href="index.html">Home</a>
+                <a href="cv.html">Portfolio</a>
+                <a href="silly.html">Gallery</a>
+                <a href="music.html">Music</a>
+        </header>
+        <main>
+            <img class="centerimg" usemap="#catmap" src="images/sillycat.jpg" alt="sillycat">
+            <map name="catmap">
+                <area coords="752,822,283,227" shape="rect" onclick="petCat()" href="">
+            </map>
+            <p class="center">Is this cat silly?</p>
+            <form class="center" id="sillyform">
+                <input type="radio" id="yes" name="issilly" value="YES">
+                <label for="yes">Yes</label><br>
+                <input type="radio" id="no" name="issilly" value="NO">
+                <label for="no">No</label><br>
+                <input type="submit" value="Submit"> <!-- onclick="formSubmitted()" -->
+            </form>
+        </main>
+        <script src="scripts.js"></script>
     </body>
 </html>
