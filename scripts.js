@@ -7,7 +7,7 @@ document.getElementById('sillyform').addEventListener('submit',function(event){
     if (Object.values(data).indexOf('YES') > -1){
         console.log("contains YES");
         document.getElementById("catpic").style.visibility = "hidden";
-        getArt("catbrain.txt");//
+        getArt("catbrain.txt");
     }
     else{
         console.log("contains something else");
@@ -16,13 +16,14 @@ document.getElementById('sillyform').addEventListener('submit',function(event){
 async function getArt(file){
     console.log("gotArt", file);
     try{
-    var myObject = await fetch(file);
+    let myObject = await fetch(file);
+    let myArt = await myObject.text();
+    console.log(myArt)
+    document.getElementById("ascii").style.visibility = "visible";
+    document.getElementById("ascii").innerHTML = myArt;
     } catch(error){
         console.log("Error fetching data: ", error);
     }
-    let myArt = await myObject.text();
-    document.getElementById("ascii").style.visibility = "visible";
-    document.getElementById("ascii").innerHTML = myArt;
 }
 async function countBraincells(file) {
     try{
