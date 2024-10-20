@@ -1,3 +1,4 @@
+const fs = require('fs');
 document.getElementById('sillyform').addEventListener('submit',function(event){
     event.preventDefault();
     const formData = new FormData(event.target);
@@ -7,7 +8,6 @@ document.getElementById('sillyform').addEventListener('submit',function(event){
     if (Object.values(data).indexOf('YES') > -1){
         console.log("contains YES");
         document.getElementById("catpic").style.visibility = "hidden";
-        const fs = require('fs');
         if (fs.existsSync('catbrain.txt')) {
             console.log("exitst");
           }
