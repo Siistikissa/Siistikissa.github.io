@@ -14,6 +14,7 @@ document.getElementById('sillyform').addEventListener('submit',function(event){
     }
 });
 async function getArt(file){
+    console.log("gotArt", file);
     try{
     var myObject = await fetch(file);
     } catch(error){
