@@ -8,6 +8,7 @@ document.getElementById('sillyform').addEventListener('submit',function(event){
         console.log("contains YES");
         document.getElementById("catpic").style.visibility = "hidden";
         getArt("text/catbrain.txt");
+        countBraincells("text/catbrain.txt");
     }
     else{
         console.log("contains something else");
@@ -17,8 +18,7 @@ async function getArt(file){
     try{
     let myObject = await fetch(file);
     let myArt = await myObject.text();
-    //document.getElementById("ascii").style.visibility = "visible";
-    countBraincells(file);
+    document.getElementById("ascii").innerHTML = myArt;
     } catch(error){
         console.log("Error fetching data: ", error);
     }
