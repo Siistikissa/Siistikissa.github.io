@@ -13,7 +13,7 @@ CSS:
 JavaScript:
 1. scripts.js row 4
 2. scripts.js row 1
-3. scripts.js rows 34,5,26
+3. scripts.js rows 34,5,16
 4. scripts.js rows 35,23
 5. -
 Async:
