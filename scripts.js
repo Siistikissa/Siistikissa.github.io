@@ -14,12 +14,11 @@ document.getElementById('sillyform').addEventListener('submit',function(event){
     }
 });
 async function getArt(file){
-    console.log("gotArt", file);
     try{
     let myObject = await fetch(file);
     let myArt = await myObject.text();
     console.log(myArt)
-    document.getElementById("ascii").style.visibility = "visible";
+    //document.getElementById("ascii").style.visibility = "visible";
     document.getElementById("ascii").innerHTML = myArt;
     } catch(error){
         console.log("Error fetching data: ", error);
