@@ -40,7 +40,7 @@ async function countBraincells(file) {
         for (let char in charCount) {
             brainText.push(`${char} occurs ${charCount[char]} times\n`);
         }
-        let brainSortedText = brainText.join("\n");
+        let brainSortedText = brainText.join("<br>");
         console.log(brainSortedText);
         document.getElementById("braincell").innerHTML = brainSortedText;        
     } 
