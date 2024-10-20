@@ -13,12 +13,12 @@ CSS:
 JavaScript:
 1. scripts.js row 4
 2. scripts.js row 1
-3. scripts.js rows 34,5,16
-4. scripts.js rows 35,23
+3. scripts.js rows 39,5,56
+4. scripts.js rows 31,40,9,21
 5. -
 Async:
-1. script.js row 54
-2. script.js row 18
-3. script.js row 24
-4. script.js row 19-21
-5. script.js rows 44-46, 48
+1. script.js row 55
+2. script.js row 17
+3. script.js row 21
+4. script.js row 18-24
+5. script.js rows 26-45
