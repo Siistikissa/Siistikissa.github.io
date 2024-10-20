@@ -1,4 +1,3 @@
-const fs = require('fs');
 document.getElementById('sillyform').addEventListener('submit',function(event){
     event.preventDefault();
     const formData = new FormData(event.target);
@@ -8,10 +7,7 @@ document.getElementById('sillyform').addEventListener('submit',function(event){
     if (Object.values(data).indexOf('YES') > -1){
         console.log("contains YES");
         document.getElementById("catpic").style.visibility = "hidden";
-        if (fs.existsSync('catbrain.txt')) {
-            console.log("exitst");
-          }
-        getArt("catbrain.txt");
+        getArt("https://github.com/Siistikissa/Siistikissa.github.io/blob/main/catbrain.txt");
     }
     else{
         console.log("contains something else");
