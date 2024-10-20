@@ -7,7 +7,7 @@ document.getElementById('sillyform').addEventListener('submit',function(event){
     if (Object.values(data).indexOf('YES') > -1){
         console.log("contains YES");
         document.getElementById("catpic").style.visibility = "hidden";
-        getArt("catbrain.txt");
+        getArt("catbrain.txt");//
     }
     else{
         console.log("contains something else");
