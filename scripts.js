@@ -36,10 +36,11 @@ async function countBraincells(file) {
                 charCount[char] = 1;
             }
         }
-        let brainText ="";//
+        let brainText ="";
         for (let char in charCount) {
             brainText.concat(`${char} occurs ${charCount[char]} times\n`);
         }
+        console.log(brainText);
         document.getElementById("braincell").innerHTML = brainText;        
     } 
     catch(error){
